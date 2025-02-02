@@ -1,0 +1,90 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    height: 100vh; /* Full-screen height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+}
+
+/* Form Container */
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* Fixed width for the form */
+}
+
+/* Headings */
+h2 {
+    color: #6a11cb;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Flash Messages */
+.flash-messages {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.flash-messages.success {
+    background: #28a745;
+    color: white;
+}
+
+.flash-messages.danger {
+    background: #dc3545;
+    color: white;
+}
+
+.flash-messages.info {
+    background: #ffc107;
+    color: black;
+}
